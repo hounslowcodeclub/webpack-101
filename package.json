@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "Basic Webpack tutorial",
   "scripts": {
-    "build": "rm -rf dist/* && webpack --display-error-details",
+    "build": "rd -r dist/* && webpack --display-error-details",
     "dev": "webpack-dev-server --content-base dist/"
   },
   "devDependencies": {
